@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h2{
+  font-size: 40px;
+  background-color:white;
+  padding: 10px;
+  color: purple;
+  margin: 20px;
+}
+
+.menu-layout {
+  display: flex;
+  margin: auto;
+  width: 800px;
+  justify-content: space-between;
+}
+
+.links {
+  padding: 10px;
+  width: 200px;
+  background-color: lightyellow;
+}
+.links:hover {
+  animation-name: hoverlink;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes hoverlink {
+  0%{
+    border-radius: 0;
+    background-color: lightyellow; }
+  100%{
+    border-radius: 50%;
+    background-color: lightblue;  }
+}
+
+.container {
+  display: flex;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lavender;
+  line-height:1.65;
+  text-align: center;
+}
+
+.clay{
+  width: 800px;
+  background-color:white;
+  margin: auto;
+  padding: 15px;
+  height: 300px;
+}
+
+.cl1{
+  float:left;
+  background-color:white;
+}
+
+.cl2{
+  float:right;
+  background-color: white;
+}
