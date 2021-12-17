@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang= "en">
+  <head>
+    <title> SillyVision Studios-Home </title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+    <link rel="stylesheet" href="/style.css" />
+     <style>
+a:link {
+  color: black;
+  text-decoration: none;}
+a:visited{
+  color: black;
+  text-decoration: none;}
+a:hover {
+  color: white;
+  text-decoration: none;}
+a:active {
+  color: lavender;
+  text-decoration: underline;}
+</style>  
+  </head>
+  
+  <body> <br>
+    <div class="menu-layout">
+      <div class= "links"> <a href="./home.html" src=""> Home </a> </div>
+      <div class= "links"> <a href="./contactus.html" src=""> Contact Us </a> </div>
+      <div class= "links"> <a href="./productsservicies.html" src=""> Products and Servicies </a> </div>
+    </div> <br>
+    
+  <div> 
+    <h2> Sillyvision Studios </h2>
+    </div>  
+    
+    <div class="container">
+    <aside class="sidebar"> <img class= "logo" src="https://cdn.glitch.me/f1778f9f-96a9-4385-b9d2-8198f38e5710%2Flogo.png?v=1637691053249" alt="logo"> <br>
+      <ul>
+        <li> Pencil - $5</li>
+        <li> Pen - $10</li>
+        <li> Markers - $15</li>
+        <li> Painting - $20</li>
+      </ul>
+    </aside>
+    
+    <article class="main">
+    This is the home page for a freelance artist named Chloe Theiste. This whole buisness 
+    was created and is maintained by her, a sophmore in high school. At the age of 15, she
+    decided to try and share her love of drawing and art with the world.   
+    </article>
+    </div>
+    
+    <div id="features" class="features1">
+    <article class= "feature">
+      <u> Speacial Deal: </u>
+     <P> Only for the next 24 hours, get any pencil drawings half off! </P> <br>
+       <a href="./productsservicies.html" class="btn2"> learn more </a>
+    </article>
+     
+    <article class= "feature">
+      <u> Speacial Deal: </u>
+     <P> Only for the next 12 hours, get 5$ off any size painting! </P> <br>
+       <a href="./productsservicies.html" class="btn2"> learn more </a>
+    </article>
+    </div>
+    
+    <button id= "hideButton" onclick="hideAds()">
+      Hide Ads
+    </button>
+    <script>
+      function hideAds() {
+        var x= document.getElementById("features");
+        var y= document.getElementById("hideButton");
+          x.style.display = "none";
+          y.style.display = "none";
+      }
+    </script>
+  </body>
+</html>
