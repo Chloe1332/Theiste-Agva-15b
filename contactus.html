@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang= "en">
+  <head>
+    <title> SillyVision Studios-Home </title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+    <link rel="stylesheet" href="/style2.css" />
+     <style>
+a:link {
+  color: black;
+  text-decoration: none;}
+a:visited{
+  color: black;
+  text-decoration: none;}
+a:hover {
+  color: white;
+  text-decoration: none;}
+a:active {
+  color: lavender;
+  text-decoration: underline;}
+       
+form {
+  margin: 0 auto;
+  width: 500px;
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+  border: 1px solid darkgray;
+  background-color: lightgray;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form li + li {
+  margin-top: 1em;
+}
+
+label {
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+input,
+textarea {
+  font: 1em sans-serif;
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid darkgray;
+}
+
+input:focus,
+textarea:focus {
+  border: 2px solid Darkgray;
+       }
+
+textarea {
+  vertical-align: top;
+  height: 6em;
+}
+
+.button {
+  padding: 15px;
+}
+button{
+  background-color: lightyellow;
+  padding:5px;
+  border: none;
+  color: darkorange
+    
+}
+</style>
+  </head>
+  
+  <body> <br>
+    <div class="menu-layout">
+      <div class= "links"> <a href="./home.html" src=""> Home </a> </div>
+      <div class= "links"> <a href="./contactus.html" src=""> Contact Us </a> </div>
+      <div class= "links"> <a href="./productsservicies.html" src=""> Products and Servicies </a> </div>
+    </div>
+      <br><br>
+    <div class=clay>
+      <div class=cl1>
+        <h2> Location </h2>
+      <p> 12121 Mulberry Street <br>
+          Mankato, Minnesota 56001 <br> <br>
+          <b> Phone: </b> 507-777-7777 <br>
+          <b> Email: </b> svstudios@gmail.com
+      </p>
+    </div>
+      <div class=cl2>
+        <h2> Hours of Operation </h2>
+      <p> <b> Mon-Fri: </b> 10am-5pm <br>
+          <b> Sat: </b> 12am - 5pm
+      </p>
+    </div>
+    </div> <br>
+    
+<form action="/my-handling-form-page" method="post">
+ <ul>
+  <li>
+    <label for="name"> Name:</label>
+    <input type="text" id="name" name="user_name">
+  </li>
+  <li>
+    <label for="mail"> E-mail:</label>
+    <input type="email" id="mail" name="user_email">
+  </li>
+  <li>
+    <label for="msg"> Message:</label>
+    <textarea id="msg" name="user_message"></textarea>
+  </li>
+ 
+     <li class="button">
+  <button type="submit">Send your message</button>
+</li>
+     </ul>
+</form> <br> <br>
+  </body></html>
